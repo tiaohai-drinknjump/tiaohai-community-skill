@@ -76,13 +76,19 @@ npx clawhub install https://github.com/tiaohai-drinknjump/tiaohai-community-skil
 
 详见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
+### 酒量积分
+
+每一次贡献都会积累"酒量"——不是消费了多少，而是你在这个数字酒馆留下了什么痕迹。提一个 Issue 赚 5 酒量，合并一个公益故事 PR 赚 40 酒量，投递漂流瓶赚 1 酒量。酒量达到一定数值会自动升级，还有成就徽章（🐱 跳跳的朋友、🎸 驻场乐手、📮 邮差、🍺 璀璨钻石……）。
+
+[酒量排行榜](./LEADERBOARD.md)每周自动更新。详细规则见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
 ### 贡献者分级
 
-| 等级 | 身份 | 权限 |
+| 等级 | 酒量 | 权限 |
 |------|------|------|
-| 村民 | 任何人 | 提 Issue、提数据 PR |
-| 打酒师 | 累计 3 个合并 PR | 提示例和故事、review 数据 PR |
-| 掌群人 | 核心团队邀请 | 合并 PR、参与架构讨论 |
+| 🆕 村民 | 0 - 99 | 提 Issue、提数据 PR |
+| 🍺 打酒师 | 100+ | 提示例和故事、review 数据 PR |
+| 👑 掌群人 | 300+ 且受邀 | 合并 PR、参与架构讨论 |
 
 ## 项目结构
 
