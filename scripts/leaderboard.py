@@ -180,9 +180,9 @@ def generate_leaderboard(scores):
             "badges": badges,
             "last": last,
         }
-        if total >= 300:
+        if total >= 1000:
             keepers.append(entry)
-        elif total >= 100:
+        elif total >= 300:
             bartenders.append(entry)
         else:
             villagers.append(entry)
