@@ -1,0 +1,52 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: shanghai-pingwu
+    name: 跳海酒馆（上海平武路店）
+    city: 上海
+    address: 上海市长宁区新华路街道平武路38号107室
+    phone: "18010162914"
+    hours: ~
+    theme: 上海首店，开业后霸榜长宁区酒吧热门榜第一
+    features: []
+    opened: "2023-06"
+
+  - id: shanghai-jiangwanli
+    name: 跳海酒馆（上海江湾里店）
+    city: 上海
+    address: 上海市杨浦区长海路街道民府路602号 T3-1F-01
+    phone: "13153881863"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: shanghai-dagu
+    name: 跳海酒馆（上海大沽路店）
+    city: 上海
+    address: 上海市静安区大沽路394号
+    phone: "18895618302"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: shanghai-yongyuan
+    name: 跳海酒馆（上海永源路店）
+    city: 上海
+    address: 上海市静安区永源路150号A109-2
+    phone: "18895618302"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: shanghai-julu
+    name: 跳海酒馆（上海巨鹿路店）
+    city: 上海
+    address: 上海市静安区巨鹿路JULU758五号楼107-109
+    phone: "18010162914"
+    hours: ~
+    theme: ~
+    features: []

@@ -1,0 +1,15 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: kunming-banzhu
+    name: 跳海酒馆（昆明版筑翠园店）
+    city: 昆明
+    address: 云南省昆明市五华区虹山东路东版筑翠园17栋8-9号
+    phone: "18687820193"
+    hours: ~
+    theme: 梁二狗现居昆明
+    features: []

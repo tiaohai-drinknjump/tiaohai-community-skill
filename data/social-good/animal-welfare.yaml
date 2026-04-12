@@ -1,0 +1,53 @@
+stories:
+  - id: beijing-cat-tiaotiao
+    title: 流浪猫"跳跳"成为后海店非官方店长
+    category: animal
+    city: 北京
+    store: 后海店
+    date: ~
+    type: ongoing
+    summary: >
+      后海店收养了一只流浪猫，取名"跳跳"，被打酒师和酒客们视为非官方店长。
+      跳海每天发布的电子日历中会记录各门店发生的小事，包括收养流浪猫这类事件。
+    source:
+      - url: https://www.topys.cn/article/34050
+        title: "跳海，是年轻人进行夜间光合作用的地方"
+      - url: https://pangjing.cn/tiaohai-thetradedesk-2024/
+        title: "9000多名打酒师'抢单'，跳海酒馆'量产'文青社交场"
+    verified: true
+    contributed_by: ~
+
+  - id: guangzhou-stray-dog-surgery
+    title: 广州店救助10岁流浪狗众筹手术
+    category: animal
+    city: 广州
+    store: ~
+    date: ~
+    type: one-time
+    summary: >
+      广州跳海救助了一只10岁的流浪狗（长满肿瘤），
+      通过每天的日历物料发起众筹做手术。
+    source:
+      - url: ~
+        title: '播客"很会观察"'
+    verified: true
+    contributed_by: ~
+
+  - id: nationwide-stray-photo-exhibit
+    title: '"非策划性相遇"流浪动物公益摄影展'
+    category: animal
+    city: ~
+    store: ~
+    date: ~
+    type: recurring
+    summary: >
+      跳海收集用户在街头遇到的流浪猫狗照片，每晚在店内展示。
+      活动期间，部分酒水收入捐给指定的流浪动物收容机构。
+      合伙人随易表示，这种方式比单纯放捐赠二维码更能激发用户参与感。
+    source:
+      - url: https://www.topys.cn/article/34050
+        title: "跳海，是年轻人进行夜间光合作用的地方"
+      - url: https://socialbeta.com/article/109721
+        title: "跳海，怎么就成为了年轻人的精神乌托邦？"
+    verified: true
+    contributed_by: ~

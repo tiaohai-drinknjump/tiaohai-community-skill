@@ -1,0 +1,14 @@
+{
+  "name": "tiaohai-mcp-server",
+  "version": "0.1.0",
+  "description": "跳海社区 Skill MCP Server - 腾讯 CloudBase 部署",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "build": "echo 'No build step needed'",
+    "deploy": "tcb fn deploy tiaohai-mcp --force"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

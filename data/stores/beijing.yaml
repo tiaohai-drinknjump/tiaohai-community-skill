@@ -1,0 +1,108 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: beijing-houhai
+    name: 跳海酒馆（北京后海店）
+    city: 北京
+    address: 北京市西城区白米斜街9号
+    phone: "18501189500"
+    hours: ~
+    theme: 跳海首店，2019年8月开业。唯一悬挂"有人跳海"书法真迹的门店（陆晨手书）。有店猫跳跳
+    features: ["首店", "有店猫跳跳", "书法真迹"]
+    opened: "2019-08"
+
+  - id: beijing-andingmen
+    name: 跳海酒馆（北京安定门店）
+    city: 北京
+    address: 北京市东城区安定门内大街268号
+    phone: "13146685575"
+    hours: ~
+    theme: 社区店。三层加起来300平，一楼啤酒+咖啡+关东煮，二楼鸡尾酒，三楼有Rode共享录音棚
+    features: ["多业态", "共享录音棚", "社区感"]
+    opened: "2022-07"
+
+  - id: beijing-village
+    name: 跳海village（北京金台路店）
+    city: 北京
+    address: 北京市朝阳区东四环中路37号西院
+    phone: "18610018601"
+    hours: ~
+    theme: Village主题店，约600平含大院子（草坪、石子），跳海最大门店之一。店长称"村长"，每年办"村晚"
+    features: ["大空间", "Village主题", "露营帐篷", "村晚"]
+
+  - id: beijing-stage
+    name: 跳海stage（北京三里屯店）
+    city: 北京
+    address: 北京市朝阳区工人体育场北路4号78号楼1层109室
+    phone: "15810852250"
+    hours: ~
+    theme: 与大象造型理发店合作，白天剪头发晚上变舞台。北京Kpop随舞地下聚集地
+    features: ["舞台", "Kpop随舞", "理发店合作"]
+
+  - id: beijing-dazhongsi
+    name: 跳海（北京大钟寺店）
+    city: 北京
+    address: 海淀区北三环西路甲18号院1733下沉广场负二层最北侧
+    phone: "13021095573"
+    hours: ~
+    theme: 跳海LIVE，音乐现场概念，店长为乐手。位于抖音总部楼下，"给大厂人的远方——电梯下到B2就到了"
+    features: ["音乐现场", "小舞台"]
+
+  - id: beijing-sanyuanqiao
+    name: 跳海酒馆（北京三元桥店）
+    city: 北京
+    address: 北京市朝阳区曙光西里甲5号凤凰汇.里巷N17号铺
+    phone: "18310831261"
+    hours: ~
+    theme: 89平，M.S.A.A.不山建筑设计，阶梯花园+开放小院
+    features: ["设计师店", "户外小院"]
+    opened: "2024-03"
+
+  - id: beijing-yizhuang
+    name: 跳海酒馆（北京亦庄Linkin Park店）
+    city: 北京
+    address: 北京市大兴区天华东路林肯公园B区26号楼底商111号2层
+    phone: "18612098035"
+    hours: ~
+    theme: 亦庄远郊社区店
+    features: []
+
+  - id: beijing-wangjing
+    name: 跳海酒馆（北京望京店）
+    city: 北京
+    address: 北京市朝阳区阜通西大街11号合生麒麟新天地1F层
+    phone: "15712815332"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: beijing-tiantan
+    name: 跳海酒馆（北京天坛店）
+    city: 北京
+    address: 北京市东城区东晓市街7号
+    phone: "17813706407"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: beijing-post
+    name: 跳海post（北京工体店）
+    city: 北京
+    address: 北京市朝阳区工人体育场北路17号
+    phone: "13718213171"
+    hours: ~
+    theme: post主题
+    features: []
+
+  - id: beijing-temple
+    name: 跳海temple（北京鼓楼店）
+    city: 北京
+    address: 北京市东城区豆腐池胡同21号观中内
+    phone: "13261582030"
+    hours: ~
+    theme: temple主题，鼓楼片区
+    features: []

@@ -1,0 +1,15 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "基于公开报道，以门店实际为准。重庆门店详细地址待官方更新"
+  data_source: "static"
+
+stores:
+  - id: chongqing-main
+    name: 跳海酒馆（重庆店）
+    city: 重庆
+    address: 待更新（官方最新门店列表中未包含重庆具体地址）
+    hours: ~
+    theme: ~
+    features: []
+    note: 重庆/成都价格比其他城市便宜约10元，因当地平均工资约4000

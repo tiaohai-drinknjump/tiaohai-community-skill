@@ -1,0 +1,98 @@
+_meta:
+  last_updated: "2026-04-11"
+  updated_by: "seed"
+  accuracy_note: "合作厂牌和酒款信息基于公开报道。具体每店每天酒头不同，以门店实际为准"
+  data_source: "static"
+
+items:
+  # === 已确认的具体酒款 ===
+
+  - name: 夕阳小茉莉（Sunset Lover）
+    category: craft_beer
+    brewery: 气泡实验室（Bubble Lab）
+    style: 社交型果汁酸啤酒（Session Juice Sour Beer）
+    abv: "4.2%"
+    price_range: "约 60-80 元/杯"
+    description: 微酸，果味浓，冷萃茉莉花提取清香，辅以西柚风味。酒花儿评分 3.77
+
+  - name: 火星海（Mars Ocean）
+    category: craft_beer
+    brewery: 大九酿造（Maha Nine）
+    style: 酸浑浊IPA（Sour NE IPA）
+    abv: "4.9%"
+    price_range: "约 60-80 元/杯"
+    description: 浓郁浆果味，偏强杀口感，酸甜如杨梅/树莓果汁气泡饮。酒花儿评分 3.83
+
+  - name: '#1584 柠檬古斯（Lemon Gose）'
+    category: craft_beer
+    brewery: 悲伤蛙（Sad Frog）
+    style: 古斯（Gose）
+    abv: "4.0%"
+    price_range: "约 60-80 元/杯"
+    description: 有点酸有点甜，柠檬皮的清新
+
+  - name: 金桔大爆炸
+    category: craft_beer
+    brewery: ~
+    style: ~
+    abv: ~
+    price_range: "约 60-80 元/杯"
+    description: 跳海人气酒款之一
+
+  - name: 面包与玫瑰
+    category: craft_beer
+    brewery: ~
+    style: ~
+    abv: ~
+    price_range: "约 60-80 元/杯"
+    description: 跳海人气酒款之一
+
+  - name: 跳上海
+    category: craft_beer
+    brewery: ~
+    style: ~
+    abv: ~
+    price_range: ~
+    description: 上海门店专属酒款
+    available_cities: ["上海"]
+
+  # === 合作厂牌 ===
+
+partner_breweries:
+  - name: 楚门津酿（Trueman Brewing）
+    founded: "2016"
+    location: 天津
+    note: 1间酒厂+4家天津门店+1家北京门店，8年间40+款产品获204枚国内外奖牌
+
+  - name: 大九酿造（Maha Nine）
+    founded: "2018"
+    location: 内蒙古呼和浩特
+    note: '代表作"西柚世界社交IPA"获2022啤酒世界杯铜奖'
+
+  - name: 气泡实验室（Bubble Lab）
+    founded: "2014"
+    location: ~
+    note: 酿酒师Marco创立，坚持高品质原料
+
+  - name: 云酿（Yunliang Brewing）
+    founded: "2016"
+    location: 昆明
+    note: 团队来自音乐/设计/创意/科技领域
+
+  - name: 山乘
+    founded: ~
+    location: ~
+    note: 跳海合作厂牌之一
+
+  - name: 悲伤蛙（Sad Frog）
+    founded: ~
+    location: ~
+    note: 有合酿记录（柠檬古斯）
+
+general_info:
+  total_breweries: 约10家合作酒厂
+  model: '"游牧酒厂"合酿模式——跳海不自建酒厂，与各地精酿厂牌合作酿造'
+  skus_per_store: 约8个SKU
+  price_range: "58-78 元/杯，均价约70元"
+  style_preference: '好入口、清爽、果味强。选酒偏好"社交型"，因女性用户占比较高'
+  custom_brew: '"西南之南 风土酿造计划"——与云酿联名，从云南选水果，社群投票决定下月酿什么'

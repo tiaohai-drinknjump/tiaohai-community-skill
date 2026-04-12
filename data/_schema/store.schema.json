@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "跳海门店数据",
+  "type": "object",
+  "required": ["stores"],
+  "properties": {
+    "_meta": { "$ref": "#/definitions/meta" },
+    "stores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "city", "address"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "name": { "type": "string" },
+          "city": { "type": "string" },
+          "address": { "type": "string" },
+          "hours": { "type": "string" },
+          "theme": { "type": "string" },
+          "features": { "type": "array", "items": { "type": "string" } },
+          "map_url": { "type": "string", "format": "uri" },
+          "_meta": { "$ref": "#/definitions/meta" }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "meta": {
+      "type": "object",
+      "required": ["last_updated"],
+      "properties": {
+        "last_updated": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "updated_by": { "type": "string" },
+        "accuracy_note": { "type": "string" },
+        "data_source": { "type": "string", "enum": ["static", "api"] }
+      }
+    }
+  }
+}

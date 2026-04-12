@@ -1,0 +1,24 @@
+name: 数据校验
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'scripts/validate.py'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema
+
+      - name: Run validation
+        run: python scripts/validate.py

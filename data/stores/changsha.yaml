@@ -1,0 +1,15 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: changsha-chaozong
+    name: 跳海酒馆（长沙潮宗街店）
+    city: 长沙
+    address: 长沙市开福区通泰街道连胜街区新编166号
+    phone: "19033658424"
+    hours: ~
+    theme: '特色活动"众人打水"——顾客去白沙古井打水倒入"愿望井"，井满后"杀桶"共饮'
+    features: []

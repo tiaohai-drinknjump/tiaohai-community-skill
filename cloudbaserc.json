@@ -1,0 +1,32 @@
+{
+  "envId": "{{YOUR_ENV_ID}}",
+  "functionRoot": "server",
+  "functions": [
+    {
+      "name": "tiaohai-mcp",
+      "handler": "index.main",
+      "runtime": "Nodejs16.13",
+      "timeout": 10,
+      "memorySize": 256,
+      "envVariables": {
+        "FEISHU_APP_ID": "{{YOUR_FEISHU_APP_ID}}",
+        "FEISHU_APP_SECRET": "{{YOUR_FEISHU_APP_SECRET}}",
+        "FEISHU_BOTTLE_APP_TOKEN": "{{YOUR_BOTTLE_APP_TOKEN}}",
+        "FEISHU_BOTTLE_TABLE_ID": "{{YOUR_BOTTLE_TABLE_ID}}",
+        "FEISHU_MENU_APP_TOKEN": "{{YOUR_MENU_APP_TOKEN}}",
+        "FEISHU_MENU_TABLE_ID": "{{YOUR_MENU_TABLE_ID}}",
+        "FEISHU_EVENT_APP_TOKEN": "{{YOUR_EVENT_APP_TOKEN}}",
+        "FEISHU_EVENT_TABLE_ID": "{{YOUR_EVENT_TABLE_ID}}"
+      },
+      "triggers": [
+        {
+          "name": "bottle-reveal",
+          "type": "timer",
+          "config": "0 0 12 * * * *"
+        }
+      ],
+      "installDependency": true,
+      "path": "/tiaohai-mcp"
+    }
+  ]
+}

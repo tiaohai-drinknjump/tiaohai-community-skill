@@ -1,0 +1,65 @@
+stories:
+  - id: nationwide-accessibility-2024
+    title: 推进无障碍建设与 NGO 合作
+    category: accessibility
+    city: ~
+    store: ~
+    date: "2024"
+    type: ongoing
+    summary: >
+      2024年下半年起，跳海推进无障碍建设，让各种障别的用户都可以进入跳海。
+      同时与多个 NGO 组织合作，包括深圳的女工组织。
+      创始人梁优表示"最近大半年一直在推"。
+    source:
+      - url: https://www.36kr.com/p/3074291512914819
+        title: '从开酒馆到开酒店，跳海的秘密是"文科生创业"'
+    verified: true
+    contributed_by: ~
+
+  - id: shenzhen-deaf-bartender
+    title: 听障打酒师融入工作团队
+    category: accessibility
+    city: 深圳
+    store: ~
+    date: ~
+    type: ongoing
+    summary: >
+      一位听障打酒师成功融入跳海工作团队，体现跳海的包容性。
+    source:
+      - url: https://finance.sina.com.cn/tech/roll/2024-11-04/doc-incuwspx9935945.shtml
+        title: '跳海酒馆 年轻人的孤独生意'
+    verified: true
+    contributed_by: ~
+
+  - id: shanghai-silent-night
+    title: 'Silent Night：重听打酒师发起的无声之夜'
+    category: accessibility
+    city: 上海
+    store: ~
+    date: ~
+    type: recurring
+    summary: >
+      上海一位重听（听力障碍）打酒师发起的活动。
+      当晚没有音乐，进来不能说话，点酒打字或手写，
+      教大家简单手语，还有人带听障朋友跳舞。
+    source:
+      - url: ~
+        title: '播客"创业内幕" S7 Vol.06 随易'
+    verified: true
+    contributed_by: ~
+
+  - id: nationwide-accessibility-scoring
+    title: 每个门店无障碍评估
+    category: accessibility
+    city: ~
+    store: ~
+    date: ~
+    type: ongoing
+    summary: >
+      每个跳海门店都会进行无障碍评估打分（无障碍厕所、坡道等）。
+      正在筹备与专业组织合作"给看不见的人讲电影故事"活动。
+    source:
+      - url: ~
+        title: '播客"创业内幕" S7 Vol.06 随易'
+    verified: true
+    contributed_by: ~

@@ -1,0 +1,15 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: wuhan-poyang
+    name: 跳海酒馆（武汉鄱阳街店）
+    city: 武汉
+    address: 武汉市江岸区鄱阳街21号华发外滩荟(咸安坊)D-F2栋2102
+    phone: "17200384612"
+    hours: ~
+    theme: 咸安坊，老里份街道改造的商业街区
+    features: []

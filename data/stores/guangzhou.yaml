@@ -1,0 +1,24 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: guangzhou-jiulonghu
+    name: 跳海酒馆（九龙湖阿那亚店）
+    city: 广州
+    address: 广州市花都区花东镇山前旅游大道3号中旅·阿那亚·九龙湖中心小镇北区8号楼
+    phone: "19584309432"
+    hours: ~
+    theme: 中旅阿那亚合作项目
+    features: []
+
+  - id: guangzhou-baoye
+    name: 跳海酒馆（广州宝业路店）
+    city: 广州
+    address: 广州市海珠区宝业路506号宝悦坊项目北区4栋1层107号
+    phone: "15360448092"
+    hours: ~
+    theme: ~
+    features: []

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tiaohai-community-skill": {
+      "type": "streamable-http",
+      "url": "待部署"
+    }
+  }
+}

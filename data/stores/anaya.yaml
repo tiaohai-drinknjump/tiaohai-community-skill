@@ -1,0 +1,15 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: anaya-hood
+    name: 跳海hood（北戴河阿那亚店）
+    city: 秦皇岛（阿那亚）
+    address: 阿那亚北岸九期滨河商业街H25
+    phone: "15811522492"
+    hours: ~
+    theme: 街区项目，12栋独立小建筑，不山建筑设计。门口有油桶邮局（跳海邮局）和引体向上杆
+    features: ["hood街区概念", "油桶邮局", "海水打包计划"]

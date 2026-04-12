@@ -1,0 +1,245 @@
+articles:
+  # === 已有的播客（非转录来源） ===
+
+  - id: xiaoyuzhou-2025-business-logic
+    title: 作为一家公司的跳海和商人梁二狗
+    source: 小宇宙播客
+    url: https://www.xiaoyuzhoufm.com/episode/67e374dd51d887b229e911aa
+    date: "2025-03"
+    type: podcast
+    summary: 摒除理想主义叙事的商业逻辑探讨
+
+  - id: qtfm-why-tiaohai
+    title: 'With 跳海梁二狗：那么多氛围感老板，为什么是跳海做大了？'
+    source: 商业WHY酱/蜻蜓FM
+    url: https://m.qtfm.cn/vchannels/471597/programs/27892526/
+    date: ~
+    type: podcast
+    summary: 跳海做大的原因分析
+
+  - id: apple-e76-young-bar
+    title: 'E76 跳海梁优：开一家年轻人都喜欢的酒馆'
+    source: Apple Podcasts
+    url: https://podcasts.apple.com/mm/podcast/e76/id1561091832?i=1000655071606
+    date: ~
+    type: podcast
+    summary: 年轻人酒馆定位与文化
+
+  # === 有转录的播客（21期） ===
+
+  # --- 梁二狗为主 ---
+
+  - id: shiye-academic-bar
+    title: '对谈梁二狗&小野酱：从学术酒吧聊到社会改良'
+    source: 实业之评
+    date: "2024"
+    type: podcast
+    summary: 话筒暴力概念、活动半小时留气口、政委制度、松散邦联管理
+    guests: 梁二狗、老蒋
+    host: 小野酱
+    has_transcript: true
+
+  - id: wandian-ep63-mable
+    title: '63: 来这的人都对上班这件事有所怀疑'
+    source: 晚点聊（晚点LatePost）
+    date: "2024-01"
+    type: podcast
+    summary: 投资人Mable视角、SKU3000+、容错率即人味、lululemon巫师理论
+    guests: 梁二狗、Mable
+    host: 汉阳
+    has_transcript: true
+
+  - id: chuangke-e005-community-economy
+    title: 'E005 共话梁二狗：从胡同酒馆到社群经济'
+    source: 创客声亮
+    date: "2025"
+    type: podcast
+    summary: 三条价值观完整阐述、近3万打酒师、女性用户70%、非标经营
+    guests: 梁二狗
+    host: 赵无松
+    has_transcript: true
+
+  - id: changtan-ep37-tuobuhua
+    title: 'Ep37 梁二狗×脱不花：跟虚无对着干！'
+    source: 长谈
+    date: "2025"
+    type: podcast
+    summary: 53家店160人、跳海邮局、游牧酒馆、罕见病基金会、300家封顶、写书《西出阳关》
+    guests: 梁二狗
+    host: 脱不花
+    has_transcript: true
+
+  - id: renwu-xiaozhen-zuotijia
+    title: '跳海梁优（二狗）：最后一代跨越阶层的90后小镇做题家？'
+    source: 人物特写反坛系列
+    date: "2025"
+    type: podcast
+    summary: 小镇成长、政法大学休学、Someet PMA启发打酒师、定价策略
+    guests: 梁二狗
+    host: 余困魂
+    has_transcript: true
+
+  - id: shangye-wajiang-s4e11
+    title: 'S4E11 那么多氛围感老板，为什么是跳海做大了？（上）'
+    source: 商业外讲（声动活泼）
+    date: "2024-10"
+    type: podcast
+    summary: 随意角色详述、比特币故事、厨房开放日、Kpop活动、公寓打工换租构想
+    guests: 梁二狗
+    host: 杨轩
+    has_transcript: true
+
+  - id: shangye-wajiang-s4e12
+    title: 'S4E12 做公寓和开酒馆，会有很大不同吗？（下）'
+    source: 商业外讲（声动活泼）
+    date: "2024-10"
+    type: podcast
+    summary: 司令+政委结构、去性别化、周周的关键角色、酒神日神决策法、政法大学打折争论
+    guests: 梁二狗
+    host: 杨轩
+    has_transcript: true
+
+  - id: henhui-guancha-interview01
+    title: '【访谈01】作为一家公司的跳海和商人梁二狗'
+    source: 很会观察
+    date: "2025"
+    type: podcast
+    summary: 50万私域、跳海日历日报月报体系、广州流浪狗救助、高峰体验理论
+    guests: 梁二狗
+    host: 老郭
+    has_transcript: true
+
+  - id: shengcun-keneng-003
+    title: '梁二狗：不当爹能当一个好老板吗？'
+    source: 生存可能（跳海自制）
+    date: "2024"
+    type: podcast
+    summary: 卖公司到优客工场完整经过、父子关系、休学骑行张掖、京东卡事件
+    guests: 梁二狗
+    host: 露瑶
+    has_transcript: true
+
+  - id: kongdao-vol185
+    title: 'vol.185 梁二狗：在跳海找到你的同温层'
+    source: 空岛（阿那亚×深夜谈谈）
+    date: "2024-07"
+    type: podcast
+    summary: 阿那亚HOOD详情、油桶邮局、露营酒馆4个点、Stage+Kpop、市集业务
+    guests: 梁二狗
+    host: 象征
+    has_transcript: true
+
+  - id: ritan-vol558
+    title: 'vol.558 有人跳海！'
+    source: 日谈公园
+    date: "2023"
+    type: podcast
+    summary: 疫情二环卖酒、外卖月销30万、伍佰演唱会疗愈、信用卡欠70万
+    guests: 梁二狗
+    host: 李叔
+    has_transcript: true
+
+  - id: feishuqi-e76
+    title: 'E76 跳海梁优：开一家年轻人都喜欢的酒馆'
+    source: 非疏奇下·组织进化论
+    date: "2024"
+    type: podcast
+    summary: 古罗马决策法、B-water理念、打酒师排班飞书流程、室内禁烟坚持
+    guests: 梁二狗
+    host: 崔灿
+    has_transcript: true
+
+  - id: xianying-vol177
+    title: 'vol.177 跳海酒馆：创业是愤怒与虚无的中间道路'
+    source: 险营（Flow Lab）
+    date: "2023"
+    type: podcast
+    summary: '"跳海的底色是一代人的绝望"、与公路商店创始人的渊源、上海开业被关'
+    guests: 梁二狗
+    host: 曹宁
+    has_transcript: true
+
+  - id: pinpai-003-bbs
+    title: '003 相亲招聘搞路演，梁二狗把跳海变成线下大型BBS'
+    source: 品牌消费官
+    date: "2023"
+    type: podcast
+    summary: 飞书排班系统、遊牧打酒点、安定门录音棚、日神酒神决策法
+    guests: 梁二狗
+    host: Leo
+    has_transcript: true
+
+  - id: luanfanshu-vol56
+    title: 'Vol.56 重构与用户和员工的关系'
+    source: 乱翻书
+    date: ~
+    type: podcast
+    summary: 连锁酒馆新模式
+    guests: 梁二狗
+    host: 潘乱
+    has_transcript: true
+
+  - id: tiaohai-90-breakup
+    title: '跳海酒馆梁优：90%的感情是要分手的，99%的创业项目都是要失败的'
+    source: 演讲/分享
+    date: "2023"
+    type: podcast
+    summary: >
+      碰杯时刻(每晚10点)、周一庇护所、吧台小说接写、mine装置、
+      绿色蔷薇NGO合作、元气弹理论、英雄无敌酒馆理论
+    guests: 梁二狗
+    has_transcript: true
+
+  - id: paipai-ep2-xiachen
+    title: 'ep.2 跳海酒馆：世界在下沉，我们要建造'
+    source: 排排座
+    date: "2022"
+    type: podcast
+    summary: 最早期，随易黄色酒馆详情、跳海vs公路商店、Village村晚
+    guests: 梁二狗
+    host: Mabel、志伟
+    has_transcript: true
+
+  # --- 随易为主 ---
+
+  - id: chuangxin-cichang-vol13
+    title: 'Vol.13 对话跳海随易：创造一种新的公共生活'
+    source: 创新磁场
+    date: "2025"
+    type: podcast
+    summary: Living主题房"作家的房间"、古城夜话、每日City Walk、海外门店近况
+    guests: 随易
+    host: Niko
+    has_transcript: true
+
+  - id: chuangzaozhe-suiyi-fujin
+    title: '跳海随易：不空谈"附近"这些概念，而让年轻人真的相聚'
+    source: 创造者（人物特写）
+    date: "2025"
+    type: podcast
+    summary: 附近性具体实践、长租公寓双向选择、差旅游概念
+    guests: 随易
+    host: 于坤坤
+    has_transcript: true
+
+  - id: chuangye-neimi-s7e06
+    title: 'S7 Vol.06 跳海酒馆随易：喝酒是最不重要的事'
+    source: 创业内幕
+    date: "2025"
+    type: podcast
+    summary: >
+      随易完整背景（城市画报→SoMeet→跳海）、打野打酒师、
+      Silent Night活动、客单价134元、全员清迈团建
+    guests: 随易
+    host: Lily
+    has_transcript: true
+
+  - id: dtclab-40-suiyi
+    title: '40 先有人后有店：跳海酒馆启示录'
+    source: DTC Lab
+    date: "2023"
+    type: podcast
+    summary: 随易视角运营、全职70%从客人转化、UGP概念、派拉蒙联名
+    guests: 随易
+    host: 艾佑
+    has_transcript: true

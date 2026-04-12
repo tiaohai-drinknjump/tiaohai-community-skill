@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "跳海媒体报道数据",
+  "type": "object",
+  "required": ["articles"],
+  "properties": {
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "url", "type"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "title": { "type": "string" },
+          "source": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "date": { "type": ["string", "null"] },
+          "type": { "type": "string", "enum": ["interview", "business", "podcast", "international"] },
+          "summary": { "type": "string", "maxLength": 100 }
+        }
+      }
+    }
+  }
+}

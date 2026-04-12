@@ -1,0 +1,52 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: hangzhou-zhongshan
+    name: 跳海酒馆（杭州中山店）
+    city: 杭州
+    address: 杭州市上城区中山中路515号
+    phone: "13173521828"
+    hours: ~
+    theme: 华东首店，120平米，月均客流约7000人
+    features: []
+    opened: "2022-09-24"
+
+  - id: hangzhou-jucai
+    name: 跳海酒馆（杭州聚才路店）
+    city: 杭州
+    address: 杭州市滨江区保利时光里购物中心一层1066
+    phone: "15732893125"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: hangzhou-jiangjin
+    name: 跳海酒馆（杭州江锦路店）
+    city: 杭州
+    address: 杭州市上城区江锦路160号
+    phone: "19011297336"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: hangzhou-tangping
+    name: 跳海酒馆（杭州塘萍路店）
+    city: 杭州
+    address: 杭州市拱墅区塘萍路70号
+    phone: "19921251626"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: hangzhou-xiasha
+    name: 跳海酒馆（杭州下沙欢肆店）
+    city: 杭州
+    address: 杭州市钱塘区下沙街道万华弄155号欢柿商业中心A-1F-10
+    phone: "18768439627"
+    hours: ~
+    theme: ~
+    features: []

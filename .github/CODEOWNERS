@@ -1,0 +1,26 @@
+# 跳海社区 Skill 代码所有权
+#
+# 严格管控层 — 仅核心团队可改
+/SKILL.md                    @tiaohai-skill-core
+/skill.json                  @tiaohai-skill-core
+/data/_schema/               @tiaohai-skill-core
+
+# 各城市数据 — 由当地掌群人维护
+/data/stores/beijing.yaml    @tiaohai-beijing
+/data/stores/shanghai.yaml   @tiaohai-shanghai
+/data/stores/guangzhou.yaml  @tiaohai-guangzhou
+/data/stores/shenzhen.yaml   @tiaohai-shenzhen
+/data/stores/chengdu.yaml    @tiaohai-chengdu
+/data/stores/hangzhou.yaml   @tiaohai-hangzhou
+/data/stores/chongqing.yaml  @tiaohai-chongqing
+/data/stores/singapore.yaml  @tiaohai-singapore
+
+# 公益模块 — 核心团队 + 全体掌群人
+/data/social-good/           @tiaohai-skill-core @tiaohai-keepers
+
+# 活动与酒单 — 全体掌群人
+/data/events/                @tiaohai-keepers
+/data/menus/                 @tiaohai-keepers
+
+# 对话示例 — 打酒师级别以上
+/examples/                   @tiaohai-bartenders

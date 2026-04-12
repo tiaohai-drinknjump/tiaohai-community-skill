@@ -1,0 +1,15 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: xiamen-lianhua
+    name: 跳海酒馆（厦门莲花店）
+    city: 厦门
+    address: 厦门市思明区嘉莲里3-101号之一
+    phone: "15060581557"
+    hours: ~
+    theme: ~
+    features: []

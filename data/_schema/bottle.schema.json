@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "跳海漂流瓶数据",
+  "type": "object",
+  "required": ["id", "city", "message", "identity", "posted_at", "reveal_at", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^bottle-\\d{8}-\\d{3,}$",
+      "description": "格式: bottle-YYYYMMDD-序号"
+    },
+    "city": { "type": "string" },
+    "store": { "type": ["string", "null"] },
+    "identity": { "type": "string", "enum": ["anonymous", "nickname"] },
+    "nickname": { "type": ["string", "null"] },
+    "message": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "留言内容，不超过200字"
+    },
+    "meet_time": { "type": ["string", "null"] },
+    "posted_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "投递时间 (ISO 8601, +08:00)"
+    },
+    "reveal_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "揭晓时间，固定为当天 20:00 BJT"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["sealed", "revealed", "expired"],
+      "description": "sealed=未揭晓, revealed=已揭晓, expired=已过期清除"
+    }
+  }
+}
