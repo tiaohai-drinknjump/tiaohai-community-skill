@@ -22,12 +22,12 @@
 
 ### 方式一：直接告诉你的 AI 助手
 
-> 请加载跳海社区 Skill：https://github.com/[org]/tiaohai-community-skill
+> 请加载跳海社区 Skill：https://github.com/tiaohai-drinknjump/tiaohai-community-skill
 
 ### 方式二：ClawHub CLI
 
 ```bash
-npx clawhub install https://github.com/[org]/tiaohai-community-skill
+npx clawhub install https://github.com/tiaohai-drinknjump/tiaohai-community-skill
 ```
 
 ### 方式三：手动配置 MCP
@@ -39,7 +39,7 @@ npx clawhub install https://github.com/[org]/tiaohai-community-skill
   "mcpServers": {
     "tiaohai-community-skill": {
       "type": "streamable-http",
-      "url": "待部署"
+      "url": "https://tiaohai-skill-9g3fie2reef791aa.service.tcloudbase.com/tiaohai-mcp"
     }
   }
 }
