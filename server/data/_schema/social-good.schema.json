@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "跳海公益数据",
+  "type": "object",
+  "required": ["stories"],
+  "properties": {
+    "stories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "category"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "title": { "type": "string" },
+          "category": { "type": "string", "enum": ["animal", "charity", "accessibility", "environment", "safety"] },
+          "city": { "type": ["string", "null"] },
+          "store": { "type": "string" },
+          "date": { "type": ["string", "null"] },
+          "type": { "type": "string", "enum": ["one-time", "ongoing", "recurring"] },
+          "summary": { "type": "string" },
+          "source": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["url"],
+              "properties": {
+                "url": { "type": "string", "format": "uri" },
+                "title": { "type": "string" }
+              }
+            }
+          },
+          "verified": { "type": "boolean" },
+          "contributed_by": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

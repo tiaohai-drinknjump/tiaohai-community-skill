@@ -1,0 +1,68 @@
+stories:
+  - id: nationwide-womens-safety
+    title: 女性安全饮酒环境
+    category: safety
+    city: ~
+    store: ~
+    date: ~
+    type: ongoing
+    summary: >
+      跳海创造对女性安全的饮酒环境：不推崇劝酒文化，积极反对骚扰行为，
+      洗手间内提供卫生用品。打酒师有规矩——"不卖酒给伤心的醉人"。
+      运营红线明确禁止鼓酒和划拳。
+    source:
+      - url: https://pangjing.cn/tiaohai-thetradedesk-2024/
+        title: "9000多名打酒师'抢单'，跳海酒馆'量产'文青社交场"
+    verified: true
+    contributed_by: ~
+    extended_note: >
+      据播客"人物特写反坛系列"，跳海应该是全国第一个贴出
+      明确禁止性骚扰标语的酒馆，公认在去性别化方面做得最好，
+      因此女性比例高达约70%。
+
+  - id: nationwide-rare-disease-concert
+    title: 为残障人士办音乐会并捐赠罕见病基金会
+    category: safety
+    city: ~
+    store: ~
+    date: ~
+    type: one-time
+    summary: >
+      跳海曾为残障人士办音乐会，活动门票70元捐给罕见病基金会。
+    source:
+      - url: ~
+        title: '播客"长谈"（脱不花×梁二狗）'
+    verified: true
+    contributed_by: ~
+
+  - id: shenzhen-kid-art-exhibition
+    title: 打酒师妈妈为女儿办画展
+    category: safety
+    city: 深圳
+    store: ~
+    date: ~
+    type: one-time
+    summary: >
+      一位深圳打酒师妈妈在店里为八岁女儿办了画展作为生日礼物，
+      其他客人都很喜欢。
+    source:
+      - url: ~
+        title: '播客"长谈"（脱不花×梁二狗）'
+    verified: true
+    contributed_by: ~
+
+  - id: nationwide-anti-harassment-handbook
+    title: 反性骚扰手册与女工权益倡议
+    category: safety
+    city: ~
+    store: ~
+    date: "2025-03"
+    type: one-time
+    summary: >
+      2025年3月8日国际妇女节，跳海发布反性骚扰手册，
+      强调女性员工的韧性和在社区空间中预防骚扰的承诺。
+    source:
+      - url: https://m.okjike.com/users/0a9a57c6-08fb-4145-82c9-0adb2c69a648
+        title: '"有人跳海"即刻帖子，2025年3月8日'
+    verified: true
+    contributed_by: ~

@@ -1,0 +1,17 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: singapore-robertson
+    name: 跳海酒馆（新加坡Robertson Quay店）
+    city: 新加坡
+    address: 8 RODYK STREET, #01-05/06, Singapore, 238216
+    phone: ~
+    contact: DrunkNJumpSG（微信/小红书/Instagram）
+    hours: ~
+    theme: 海外首店，2025年春节前夕开业。最便宜的酒卖20新币（约100多人民币）
+    features: ["海外首店"]
+    opened: "2025-01"

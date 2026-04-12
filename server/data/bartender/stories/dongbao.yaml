@@ -1,0 +1,13 @@
+stories:
+  - id: bartender-dongbao
+    name: 冬宝
+    city: ~
+    day_job: 自由撰稿人
+    story: >
+      离职后成为兼职打酒师。"虽然钱不多，但少了许多孤独。"
+      她在广告行业时"丧失了自己的表达欲"，
+      在跳海感受到"人跟整个环境有种互动感"。
+    source:
+      url: https://zhuanlan.zhihu.com/p/680259783
+      title: '不是谁都能在跳海当一名打酒师'
+    authorized: true  # 信息来自公开报道

@@ -1,0 +1,33 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: tianjin-wudadao
+    name: 跳海酒馆（天津五大道店）
+    city: 天津
+    address: 天津市和平区重庆道120号花园老街院内3号楼
+    phone: "18698062404"
+    hours: ~
+    theme: 天津首店。梁二狗称天津是"今年最大的惊喜"
+    features: []
+
+  - id: tianjin-garage
+    name: 跳海garage（天津和平印象城店）
+    city: 天津
+    address: 天津市和平区和平印象城D区1层（近多伦道）
+    phone: "13132065564"
+    hours: ~
+    theme: garage主题
+    features: []
+
+  - id: tianjin-jinyi
+    name: 跳海酒馆（天津津一PARK店）
+    city: 天津
+    address: 天津市河东区津塘路146号泰达津一产业公园9号
+    phone: "15620389520"
+    hours: ~
+    theme: ~
+    features: []

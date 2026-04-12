@@ -1,0 +1,48 @@
+stories:
+  - id: nationwide-cigarette-butt-machine
+    title: '"勇敢烟蒂机"环保互动装置'
+    category: environment
+    city: ~
+    store: ~
+    date: ~
+    type: ongoing
+    summary: >
+      跳海常设的互动装置，门口设两个选项，吸烟的顾客将烟蒂投入对应选项投票。
+      既减少门口乱扔烟蒂，又创造趣味社交互动。
+    source:
+      - url: https://socialbeta.com/article/109721
+        title: '"跳海，怎么就成为了年轻人的精神乌托邦？"'
+    verified: true
+    contributed_by: ~
+
+  - id: nationwide-thesis-recycling
+    title: 毕业季学术垃圾回收计划
+    category: environment
+    city: ~
+    store: ~
+    date: ~
+    type: recurring
+    summary: >
+      每年毕业季，跳海向应届毕业生回收论文等学术成果，
+      用毕业论文换跳海币，将"学术垃圾"转化为有趣的再利用物。
+    source:
+      - url: https://socialbeta.com/article/109721
+        title: '"跳海，怎么就成为了年轻人的精神乌托邦？"'
+    verified: true
+    contributed_by: ~
+
+  - id: nationwide-outdoor-cleanup
+    title: 清山徒步与环海骑行
+    category: environment
+    city: ~
+    store: ~
+    date: ~
+    type: recurring
+    summary: >
+      跳海组织"清山徒步""环海骑行计划""跳海啤酒跑"等户外活动，
+      周末也会组织山野环保清理。
+    source:
+      - url: https://startup.aliyun.com/info/1088543.html
+        title: 阿里云创新中心跳海报道
+    verified: true
+    contributed_by: ~

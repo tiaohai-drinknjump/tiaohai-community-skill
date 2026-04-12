@@ -1,0 +1,413 @@
+{
+  "skill": {
+    "name": "跳海社区 Skill",
+    "version": "0.1.0",
+    "description": "由跳海村民共同建造的数字酒馆。这不是跳海官方出品，而是社区成员发起的开源项目。",
+    "author": "跳海社区",
+    "license": "MIT",
+    "transport": "streamable-http",
+    "tags": ["精酿", "打酒师", "跳海村民", "夜间光合作用", "社区共建"],
+    "system_instruction": "你是一个跳海社区成员做的 AI 助手，不是官方客服。你的人格是一个喝了两杯、微醺但清醒的资深打酒师——真诚、松弛、略带文艺，不端着不营销。回答前必须调用对应工具获取数据，不可使用文档中的示例值。回复涉及热数据（酒单、活动）时须根据 _meta.last_updated 附加新鲜度提示。不知道就说不知道，绝不编造。详见 SKILL.md。"
+  },
+  "tools": [
+    {
+      "name": "get_store_info",
+      "description": "查询跳海酒馆门店信息，包括地址、营业时间、主题风格。可按城市筛选。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "description": "城市名（如「北京」「上海」「新加坡」），不传则返回全部城市概览"
+          },
+          "store_name": {
+            "type": "string",
+            "description": "门店名关键词（如「后海」「北二跳」），用于模糊搜索"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "api",
+        "fallback": "static",
+        "static_path": "data/stores/",
+        "api_endpoint": null,
+        "freshness": "weekly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_menu_info",
+      "description": "查询跳海酒馆的酒单与产品信息，包括精酿啤酒、鸡尾酒、小食、周边。酒单每日可能变化，请注意数据新鲜度。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "description": "城市名，不传则返回全国通用合作厂牌酒款"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["craft_beer", "cocktail", "snack", "merch"],
+            "description": "产品类别：精酿啤酒、鸡尾酒、小食、周边"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "api",
+        "fallback": "static",
+        "static_path": "data/menus/",
+        "api_endpoint": null,
+        "freshness": "daily"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_service_info",
+      "description": "查询跳海酒馆的到店服务信息，包括 WiFi、6大友好服务（呼吸友好、醉鬼友好、宠物友好、走神友好、独处友好、艺术友好）以及运营红线。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "description": "城市名，部分服务因店而异"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/brand/",
+        "api_endpoint": null,
+        "freshness": "monthly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_events",
+      "description": "查询跳海酒馆的活动日历，包括市集、演出、展览、读书沙龙、播客录制等。活动每周不同，请注意数据新鲜度。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "description": "城市名，不传则返回全国近期活动概览"
+          },
+          "upcoming_only": {
+            "type": "boolean",
+            "default": true,
+            "description": "是否仅显示未来活动，默认 true"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "api",
+        "fallback": "static",
+        "static_path": "data/events/",
+        "api_endpoint": null,
+        "freshness": "daily"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_bartender_info",
+      "description": "查询跳海酒馆的打酒师制度，包括什么是打酒师、三级体系（实习→正式→王者）、薪资结构、申请方式、打酒师故事等。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "enum": ["overview", "how_to_apply", "faq", "stories"],
+            "description": "查询主题：概览、如何申请、常见问题、打酒师故事"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/bartender/",
+        "api_endpoint": null,
+        "freshness": "monthly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_community_info",
+      "description": "查询如何加入跳海各城市的微信社群，包括社群分类（店面群、兴趣群、活动群）和加入方式。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "description": "城市名，不传则返回社群体系概览"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/community/",
+        "api_endpoint": null,
+        "freshness": "weekly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_collab_info",
+      "description": "查询跳海酒馆的品牌联名与合作信息，包括当前和过往的跨界合作。",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/community/collab-brands.yaml",
+        "api_endpoint": null,
+        "freshness": "monthly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_social_good",
+      "description": "查询跳海酒馆的公益活动与社会责任实践，包括流浪动物救助、慈善合作、无障碍建设、环保行动、安全友好等。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": ["animal", "charity", "accessibility", "environment", "safety", "all"],
+            "description": "公益类别，不传或传 all 则返回全部"
+          },
+          "city": {
+            "type": "string",
+            "description": "城市名，按城市筛选公益故事"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/social-good/",
+        "api_endpoint": null,
+        "freshness": "weekly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_brand_story",
+      "description": "查询跳海酒馆的品牌起源与发展里程碑，从2019年北京胡同客厅到如今覆盖16+城市的故事。",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/brand/story.yaml",
+        "api_endpoint": null,
+        "freshness": "quarterly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_founder_story",
+      "description": "查询跳海酒馆创始人梁二狗（梁优）的故事，包括五次创业经历、核心理念和公开语录。",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/brand/founder.yaml",
+        "api_endpoint": null,
+        "freshness": "quarterly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_media_coverage",
+      "description": "查询关于跳海酒馆的媒体报道索引，包括深度采访、商业分析、播客、英文报道等，返回标题和链接。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["interview", "business", "podcast", "international", "all"],
+            "description": "报道类型，不传或传 all 则返回全部"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/media/",
+        "api_endpoint": null,
+        "freshness": "quarterly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_business_model",
+      "description": "查询跳海酒馆的商业模式解读，包括坪效、毛利率、人力成本、打酒师经济模型等公开数据。面向创业者、投资人和研究者。",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/brand/",
+        "api_endpoint": null,
+        "freshness": "quarterly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "get_join_us",
+      "description": "查询如何加入跳海，包括全职岗位、打酒师申请、掌群人/社群志愿者等不同方式。",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      },
+      "data_source": {
+        "primary": "static",
+        "fallback": "static",
+        "static_path": "data/bartender/",
+        "api_endpoint": null,
+        "freshness": "monthly"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    },
+    {
+      "name": "post_bottle",
+      "description": "投递一个漂流瓶留言。每天北京时间20:00统一揭晓。留言不可包含电话/微信号等联系方式，线下见面靠描述（穿什么、坐哪）。每人每天最多3个。",
+      "parameters": {
+        "type": "object",
+        "required": ["city", "message", "identity"],
+        "properties": {
+          "city": {
+            "type": "string",
+            "description": "城市名"
+          },
+          "store": {
+            "type": "string",
+            "description": "门店名（可选，不填则该城市所有店可见）"
+          },
+          "message": {
+            "type": "string",
+            "description": "留言内容（不可包含电话/微信号）"
+          },
+          "identity": {
+            "type": "string",
+            "enum": ["anonymous", "nickname"],
+            "description": "匿名或留昵称"
+          },
+          "nickname": {
+            "type": "string",
+            "description": "昵称（identity=nickname 时填写）"
+          },
+          "meet_time": {
+            "type": "string",
+            "description": "想见面的时间（如「今晚十点」「九点半」）"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "api",
+        "fallback": null,
+        "static_path": null,
+        "api_endpoint": null,
+        "freshness": "realtime",
+        "backend": "feishu_bitable + cloud_function（待接入）"
+      },
+      "annotations": {
+        "readOnlyHint": false,
+        "destructiveHint": false,
+        "idempotentHint": false
+      }
+    },
+    {
+      "name": "get_bottles",
+      "description": "查看今天揭晓的漂流瓶。每天北京时间20:00后可查看当天所有留言。20:00前调用会提示「还没到开奖时间，八点见」。瓶子有效期为当天，次日自动清除。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": "string",
+            "description": "按城市筛选"
+          },
+          "store": {
+            "type": "string",
+            "description": "按门店筛选（可选）"
+          }
+        }
+      },
+      "data_source": {
+        "primary": "api",
+        "fallback": null,
+        "static_path": null,
+        "api_endpoint": null,
+        "freshness": "realtime",
+        "backend": "feishu_bitable + cloud_function（待接入）"
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true
+      }
+    }
+  ]
+}

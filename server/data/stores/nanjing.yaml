@@ -1,0 +1,14 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "seed"
+  accuracy_note: "基于公开报道，以门店实际为准。南京门店详细地址待官方更新"
+  data_source: "static"
+
+stores:
+  - id: nanjing-main
+    name: 跳海酒馆（南京店）
+    city: 南京
+    address: 待更新（官方最新门店列表中未包含南京具体地址）
+    hours: ~
+    theme: ~
+    features: []

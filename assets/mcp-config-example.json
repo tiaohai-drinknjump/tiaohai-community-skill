@@ -2,7 +2,7 @@
   "mcpServers": {
     "tiaohai-community-skill": {
       "type": "streamable-http",
-      "url": "待部署"
+      "url": "https://tiaohai-skill-9g3fie2reef791aa.service.tcloudbase.com/tiaohai-mcp"
     }
   }
 }

@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "跳海活动数据",
+  "type": "object",
+  "required": ["events"],
+  "properties": {
+    "_meta": { "$ref": "#/definitions/meta" },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "city"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "title": { "type": "string" },
+          "city": { "type": "string" },
+          "store": { "type": "string" },
+          "date": { "type": ["string", "null"] },
+          "time": { "type": "string" },
+          "type": { "type": "string", "enum": ["music", "market", "exhibition", "reading", "podcast", "film", "sports", "other"] },
+          "description": { "type": "string" },
+          "recurring": { "type": "boolean" },
+          "source_url": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "meta": {
+      "type": "object",
+      "required": ["last_updated"],
+      "properties": {
+        "last_updated": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+        "updated_by": { "type": "string" },
+        "accuracy_note": { "type": "string" },
+        "data_source": { "type": "string", "enum": ["static", "api"] }
+      }
+    }
+  }
+}

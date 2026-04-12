@@ -1,0 +1,120 @@
+friendly_services:
+  note: >
+    官方"六大友好"的完整定义未在公开报道中找到统一表述，
+    以下综合多篇报道梳理。
+
+  items:
+    - name: 女性友好/安全友好
+      description: >
+        禁止隔桌请酒（店员主动制止而非询问女性）；
+        厕所贴"遇骚扰可求助"标语并提供卫生用品；
+        运营红线禁止鼓酒和划拳。
+      source: https://pangjing.cn/tiaohai-thetradedesk-2024/
+
+    - name: 宠物友好
+      description: 可带宠物进店。运动会时有宠物聚会专场。
+      source: https://pangjing.cn/tiaohai-thetradedesk-2024/
+
+    - name: 独处友好
+      description: 允许一个人来店，无过度打扰的服务模式。一个人发呆也不会觉得奇怪。
+
+    - name: 骑行友好
+      description: 对骑行人群友好。
+
+    - name: 全年龄段友好
+      description: >
+        可带电脑办公、带孩子聚会。
+        有60多岁的大学教授是在册打酒师，也有老年人每天来看报纸。
+
+    - name: 自带食物友好
+      description: 允许带外食、点外卖。大部分门店不卖食物。
+
+operational_rules:
+  - "不劝酒、禁止鼓酒、禁止划拳"
+  - "不卖酒给伤心的醉人"
+  - "无扫码点单，必须面对面沟通下单"
+  - '"本店允许客人自己服务自己"——自助式体验'
+  - "天冷时店员送毛毯或夜灯"
+
+store_types:
+  note: 跳海门店按主题分为多种类型，社区店占70%-80%
+  types:
+    - name: Village
+      description: 较大空间，社区村落概念
+    - name: Stage
+      description: 演出/舞台概念
+    - name: Park
+      description: 公园概念
+    - name: Base
+      description: 基地概念
+    - name: Pool
+      description: 泳池概念
+    - name: LIVE
+      description: 音乐现场概念
+    - name: hood
+      description: 街区概念
+
+content_products:
+  - name: 跳海日历
+    description: 酒桌上放置，印有打酒师招募二维码
+
+  - name: 跳海日报
+    description: 每日工作结束后生成，记录当天发生的事（如"丝瓜熟了可免费领取"）
+
+  - name: 跳海小报/月刊
+    description: 定期更新的社群内容
+
+  - name: 共创小说
+    description: 吧台备小说本，顾客接力编故事
+
+  - name: 共创歌单
+    description: A4纸贴墙上，顾客手写推荐歌曲，店内播放列表由顾客共同决定
+
+  - name: 愿望悬赏令
+    description: 客人手写愿望留下联系方式放到收集盒，跳海记录每一个实现过的愿望
+
+  - name: 照片墙
+    description: 展示发生在店内的人物故事，配文记录时间、人物和情绪
+
+  - name: 碰杯时刻
+    description: 每天晚上10点，所有打酒师和客人放下手里的事举杯，庆祝当晚共度的夜晚
+
+  - name: 周一庇护所
+    description: 周一开完周会做不完的工作，大家带电脑去吧台一起加班
+
+  - name: mine装置
+    description: 深圳店里有mine连着iPad，客人可对已去世亲人、已结束感情、未完成梦想留言
+
+  - name: 厨房开放日
+    description: >
+      部分门店楼下合作厨房每周一休息时交给客人接管，
+      做菜（苏北唐素排骨、东北麻辣拌、云南香茅烤鱼等），
+      每次十到二十份先到先得。也有"带菜日"每人带个菜
+
+  - name: 跳海日历
+    description: >
+      1000多个微信群每天发一张电子日历，讲昨天跳海发生什么事，
+      用一个事件带一个价值观。栏目包括：一千零一夜、九毛九广告位
+
+  - name: 跳海报纸
+    description: 每月纸质报刊，全国每个跳海都有，含各地好玩的事、填字游戏、脑筋急转弯、交友专栏
+
+  - name: 油桶邮局
+    description: >
+      阿那亚HOOD门口特色。三种寄信业务：月寄、年寄、随缘寄（人肉快递），
+      选随缘寄的人最多。7月全国有200多封信寄来寄去
+
+  - name: 海水打包计划
+    description: 阿那亚特色，用易拉罐装一杯海水带回家，标签写当天天气
+
+  - name: PS4对战区
+    description: 某些店有投影仪装了PS4，客人可以对战俄罗斯方块
+
+  - name: 报刊角
+    description: 店内可以翻书
+
+  - name: 免费排练室
+    description: 北京大工厂店提供免费排练室给高校乐队（有套不错的设备），唯一要求是允许大家观看
+
+  - name: 酒鬼日历
+    description: 跳海出品的实体日历，一年365天每天一个小圆点，喝了就贴贴纸，不同颜色代表醉的程度

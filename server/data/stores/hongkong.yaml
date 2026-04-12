@@ -1,0 +1,16 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: hongkong-central
+    name: 跳海酒馆（香港中环店）
+    city: 香港
+    address: 香港特别行政区中环威灵顿街65号地下
+    phone: ~
+    contact: HKDrunkNJump（微信/小红书/Instagram）
+    hours: ~
+    theme: 中环核心地段
+    features: []

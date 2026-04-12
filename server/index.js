@@ -19,7 +19,10 @@ const yaml = require("js-yaml");
 // Data loading utilities
 // ============================================================
 
-const DATA_DIR = path.join(__dirname, "..", "data");
+// CloudBase: data/ is in same directory; local dev: data/ is in parent
+const DATA_DIR = fs.existsSync(path.join(__dirname, "data"))
+  ? path.join(__dirname, "data")
+  : path.join(__dirname, "..", "data");
 
 function loadYaml(relativePath) {
   const fullPath = path.join(DATA_DIR, relativePath);
@@ -446,9 +449,10 @@ const TOOLS = {
 };
 
 // Load tool definitions from skill.json
-const skillJson = JSON.parse(
-  fs.readFileSync(path.join(__dirname, "..", "skill.json"), "utf8")
-);
+const skillJsonPath = fs.existsSync(path.join(__dirname, "skill.json"))
+  ? path.join(__dirname, "skill.json")
+  : path.join(__dirname, "..", "skill.json");
+const skillJson = JSON.parse(fs.readFileSync(skillJsonPath, "utf8"));
 const TOOL_DEFINITIONS = skillJson.tools.map((t) => ({
   name: t.name,
   description: t.description,

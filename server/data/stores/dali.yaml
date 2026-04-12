@@ -1,0 +1,15 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: dali-gucheng
+    name: 跳海酒馆（大理古城店）
+    city: 大理
+    address: 大理市大理古城广武路84号紫藤纪杨家花园
+    phone: "1739602690"
+    hours: ~
+    theme: ~
+    features: []

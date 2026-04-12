@@ -1,0 +1,24 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: xian-shuncheng
+    name: 跳海酒馆（西安顺城东路店）
+    city: 西安
+    address: 西安市碑林区顺城东路南段建国五巷向南50米崇仁东创意园区
+    phone: "17302940483"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: xian-tiyuguan
+    name: 跳海酒馆（西安体育馆东路店）
+    city: 西安
+    address: 西安市碑林区体育馆东路9号东排26号与南郭路丁字路口东北角
+    phone: "17765825055"
+    hours: ~
+    theme: ~
+    features: []

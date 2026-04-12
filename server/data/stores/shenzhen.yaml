@@ -1,0 +1,79 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: shenzhen-nanshan-shucheng
+    name: 跳海酒馆（深圳南山书城店）
+    city: 深圳
+    address: 深圳市南山区海德二道3006-12东华假日公寓跳海酒馆
+    phone: "18138875189"
+    hours: ~
+    theme: 靠近南山书城
+    features: []
+
+  - id: shenzhen-nanshan-zhan
+    name: 跳海酒馆（深圳南山站店）
+    city: 深圳
+    address: 深圳市南山区南山街道向南社区南山大道1153号天源大厦A栋一楼商铺
+    phone: "15302760257"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: shenzhen-opower
+    name: 跳海酒馆（深圳O·Power店）
+    city: 深圳
+    address: 深圳市南山区沙河街道文昌街社区香山东街19号O·POWER文化艺术中心4-1、4-2号
+    phone: "17744937817"
+    hours: ~
+    theme: 华侨城文创园区内
+    features: []
+
+  - id: shenzhen-base
+    name: 跳海base（深圳天河城店）
+    city: 深圳
+    address: 深圳罗湖区太白路3008号深圳天河城·金啤坊B栋B1
+    phone: "19926455177"
+    hours: ~
+    theme: base主题
+    features: []
+
+  - id: shenzhen-cocopark
+    name: 跳海酒馆（深圳COCO Park店）
+    city: 深圳
+    address: 深圳市福田星河COCO Park南区一楼（柏悦酒店对面）
+    phone: "18665826558"
+    hours: ~
+    theme: 商场店，Anti-mode反消费主义表达（曾在商场门口种菜让客人认领）
+    features: ["商场店"]
+
+  - id: shenzhen-bagualing
+    name: 跳海酒馆（深圳八卦岭店）
+    city: 深圳
+    address: 深圳市福田区园岭街道鹏盛社区八卦一路123号盛世鹏程西区2栋112号（宠物家旁边）
+    phone: "13316800137"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: shenzhen-shahexi
+    name: 跳海酒馆（深圳沙河西店）
+    city: 深圳
+    address: 深圳市南山区深圳湾科技生态园2栋B座1层113,123号
+    phone: "13076927885"
+    hours: ~
+    theme: ~
+    features: []
+
+  - id: shenzhen-living
+    name: 跳海酒馆（深圳南头古城Living店）
+    city: 深圳
+    address: 深圳市南山区南头古城朝阳南街1号
+    phone: "15818710394"
+    hours: ~
+    theme: 跳海Living青年社区酒店，改造万科泊寓闲置握手楼，含青旅+长租公寓+酒馆
+    features: ["Living", "青旅", "长租公寓"]
+    opened: "2025-09"

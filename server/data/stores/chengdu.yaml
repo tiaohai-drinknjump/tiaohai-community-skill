@@ -1,0 +1,24 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: chengdu-yulin
+    name: 跳海酒馆（成都玉林路店）
+    city: 成都
+    address: 成都市武侯区玉林西路2号附3号-附4号
+    phone: "19938146147"
+    hours: ~
+    theme: 玉林社区感浓厚
+    features: []
+
+  - id: chengdu-park
+    name: 跳海park（成都东郊店）
+    city: 成都
+    address: 成都市成华区建设南路4号东郊记忆园区38-1
+    phone: "15680612687"
+    hours: ~
+    theme: Park主题店，有从三层天台滑到一层的滑梯
+    features: ["Park主题", "滑梯"]

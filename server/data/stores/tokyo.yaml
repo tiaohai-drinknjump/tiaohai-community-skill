@@ -1,0 +1,15 @@
+_meta:
+  last_updated: "2026-04-12"
+  updated_by: "official"
+  accuracy_note: "跳海官方提供的完整门店数据"
+  data_source: "static"
+
+stores:
+  - id: tokyo-main
+    name: 跳海酒馆（东京店）
+    city: 东京
+    address: 在线寻找新据点，欢迎推荐
+    phone: "+818041536656"
+    hours: ~
+    theme: 筹备中，选址在早稻田大学附近（华人密集区），设计阶段
+    features: ["筹备中"]

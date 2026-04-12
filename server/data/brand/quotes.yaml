@@ -1,0 +1,311 @@
+quotes:
+  # === 来自公开报道 ===
+
+  - text: "我们是社群运营公司，酒馆是4S店。"
+    speaker: 梁优
+    source: 腾讯新闻采访
+    source_url: https://news.qq.com/rain/a/20221023A05KXQ00
+
+  - text: "先有人，再有店。"
+    speaker: 梁优
+    source: 腾讯新闻采访
+    source_url: https://news.qq.com/rain/a/20231122A08GIU00
+
+  - text: "把客人当人，而不是计算的结果。"
+    speaker: 梁优
+    source: 腾讯新闻采访
+    source_url: https://news.qq.com/rain/a/20231122A08GIU00
+
+  - text: "跳海跟海伦司不在一个行业，跟阿那亚在一个行业。"
+    speaker: 梁优
+    source: 新浪财经
+    source_url: https://finance.sina.com.cn/tech/roll/2024-10-10/doc-incsarnn8795038.shtml
+
+  - text: "千城万店是本人价值观上反对的。"
+    speaker: 梁优
+    source: 新浪财经
+    source_url: https://finance.sina.com.cn/tech/roll/2024-10-10/doc-incsarnn8795038.shtml
+
+  - text: "啤酒是最不应该从口味角度去做营销的。"
+    speaker: 梁优
+    source: 澎湃新闻
+    source_url: https://www.thepaper.cn/newsDetail_forward_19218256
+
+  - text: "站在阳光照不到的地方呼唤阳光，站在小众的立场对话主流。"
+    speaker: 梁优
+    source: 36氪
+    source_url: https://www.36kr.com/p/3074291512914819
+
+  - text: "用建设替代对抗。"
+    speaker: 梁优
+    source: 36氪
+    source_url: https://www.36kr.com/p/3074291512914819
+
+  - text: "我们服务朋友，不服务上帝。"
+    speaker: 跳海
+    source: 胖鲸
+    source_url: https://pangjing.cn/tiaohai-thetradedesk-2024/
+
+  - text: "多一个人站在吧台里面，就会有多20个人站在外面。"
+    speaker: 跳海
+    source: 胖鲸
+    source_url: https://pangjing.cn/tiaohai-thetradedesk-2024/
+
+  - text: "不卖酒给伤心的醉人。"
+    speaker: 跳海打酒师准则
+    source: 胖鲸
+    source_url: https://pangjing.cn/tiaohai-thetradedesk-2024/
+
+  - text: "当年轻人不在你店里的时候，他还在讨论你，这才是影响力。"
+    speaker: 梁优
+    source: 腾讯新闻
+    source_url: https://news.qq.com/rain/a/20231122A08GIU00
+
+  - text: "喝酒是最不重要的事。"
+    speaker: 梁优
+    source: TOPYS
+    source_url: https://www.topys.cn/article/34050
+
+  - text: "我们提供并不贫瘠的土壤，然后持续观察能生长出什么。"
+    speaker: 随易
+    source: 数英
+    source_url: https://www.digitaling.com/articles/902369.html
+
+  # === 来自播客 ===
+
+  - text: "所有的酒吧都值得用跳海的方式再做一遍。"
+    speaker: 梁优
+    source: '播客"晚点聊"'
+
+  - text: "来这的人都对上班这件事多少有所怀疑。"
+    speaker: 跳海摄影师
+    source: '播客"晚点聊"'
+    note: 二狗引用跳海摄影师的话
+
+  - text: "容错率代表了人味。"
+    speaker: 梁优
+    source: '播客"晚点聊"'
+
+  - text: "效率往往意味着对人的不尊重，对差异性的不尊重。"
+    speaker: 梁优
+    source: '播客"晚点聊"'
+
+  - text: "跳海是你在城市里的山野。"
+    speaker: Mable（投资人）
+    source: '播客"晚点聊"'
+
+  - text: "在美团出现之前商家自己送外卖，美团把这个角色开源了；在跳海出现之前酒吧自己雇打酒师，跳海把这个角色开源了。"
+    speaker: 梁优
+    source: '播客"长谈"（脱不花）'
+
+  - text: "如果一个店有一百个老板，那这个事不就很合理吗？"
+    speaker: 梁优
+    source: '播客"长谈"（脱不花）'
+
+  - text: "我眼里都常含泪水，但是手上也有算盘。"
+    speaker: 梁优
+    source: '播客"长谈"（脱不花）'
+
+  - text: "保底线争上线——保底线是商业上得成立，争上线是表达融在里面。"
+    speaker: 梁优
+    source: '播客"长谈"（脱不花）'
+
+  - text: "放下手机的时间是人最后的保留地。"
+    speaker: 梁优
+    source: '播客"长谈"（脱不花）'
+
+  - text: "我们要做人文主义最后的余火。"
+    speaker: 梁优
+    source: '播客"长谈"（脱不花）——跳海内部说法'
+
+  - text: "创业和创作是人唯二的途径去面对生命的虚无。"
+    speaker: 梁优
+    source: '播客"长谈"（脱不花）'
+
+  - text: "商业是我们这一代人手上最大的权杖。"
+    speaker: 梁优
+    source: '播客"实业之评"'
+
+  - text: "通过商业去进行某种社会改良。"
+    speaker: 梁优
+    source: '播客"实业之评"'
+
+  - text: "一个人的B面人生的价值变现。"
+    speaker: 梁优
+    source: '播客"实业之评"'
+    note: 描述打酒师制度的本质
+
+  - text: "文艺青年养成商业sense是一个非常痛苦的过程。"
+    speaker: 梁优
+    source: '播客"实业之评"'
+
+  - text: "全国只有北京能靠聊天下酒。"
+    speaker: 梁优
+    source: '播客"实业之评"'
+
+  - text: "酒不是快消消费品，它是即时非理性消费品。"
+    speaker: 梁优
+    source: '播客"创客声亮"'
+
+  - text: "如果有一天AI真的要战胜人类，那跳海就要做我们自己的逻辑。"
+    speaker: 梁优
+    source: '播客"创客声亮"——内部周会反复讲的话'
+
+  - text: "保一个赚钱的底线，来争一个社群的上限。"
+    speaker: 梁优
+    source: '播客"创客声亮"'
+
+  - text: "强行复制粘贴很容易让品牌的灵魂死掉。"
+    speaker: 梁优
+    source: '播客"创客声亮"'
+
+  - text: "酒馆是人面对以小红书为代表的巨大世界浪潮最后的堡垒。"
+    speaker: 梁优
+    source: '播客"人物特写反坛系列"'
+
+  - text: "跳海真正的产品是美好的夜晚加上遥远的想象。"
+    speaker: 梁优
+    source: '播客"人物特写反坛系列"'
+
+  - text: "人去酒吧喝酒绝对不是喝的酒。酒吧是某种意义上生活的避难所，人喝的是一种未知。"
+    speaker: 梁优
+    source: '播客"人物特写反坛系列"'
+
+  - text: "大众创业万众创新是我这一代人最后一个Social Ladder。"
+    speaker: 梁优
+    source: '播客"人物特写反坛系列"'
+
+  - text: "你把法规立好，这个社会它就可以正常运转。"
+    speaker: 梁优
+    source: '播客"人物特写反坛系列"——政法大学教给他的，用在跳海利益分配体系'
+
+  - text: "你只要行动起来，你就有可能性。你只要行动起来，就可以打破宿命。"
+    speaker: 梁优
+    source: '播客"人物特写反坛系列"'
+
+  - text: "从众是这个时代最大的问题。"
+    speaker: 梁优
+    source: '播客"人物特写反坛系列"'
+
+  - text: "你不能对这个下坠的时代毫无想说的话。"
+    speaker: 梁优
+    source: '播客"人物特写反坛系列"'
+
+  - text: "我是在收集这个世界的勋章。"
+    speaker: 梁优
+    source: '播客"人物特写反坛系列"——谈融资'
+
+  # === 来自第二批16期播客 ===
+
+  - text: "北上广是年轻人租不起有客厅的房子，所以跳海给大家提供客厅。"
+    speaker: 梁优
+    source: '播客"商业外讲"'
+
+  - text: "社区的底色是互助，它不是专业的购买服务。"
+    speaker: 梁优
+    source: '播客"商业外讲"'
+
+  - text: "两瓶毒药必须选一瓶。"
+    speaker: 梁优
+    source: '播客"商业外讲"——关于打酒师服务不稳定vs规模化的取舍'
+
+  - text: "尊重女性就是放过自己——让自己成为一个真正的人。"
+    speaker: 梁优
+    source: '播客"商业外讲"'
+
+  - text: "微信群不等于社群，微信群是社群的载体。"
+    speaker: 梁优
+    source: '播客"商业外讲"'
+
+  - text: "我用了十年上了牌桌，牌桌上没有人——拔剑四顾心茫然。"
+    speaker: 梁优
+    source: '播客"商业外讲"'
+
+  - text: "世界在下沉，我们要建造。"
+    speaker: 跳海
+    source: '播客"排排座"——跳海的核心态度宣言'
+
+  - text: "跳海是我快到30岁能写出来的最好的歌。"
+    speaker: 梁优
+    source: '播客"排排座"'
+
+  - text: "写出一个好的作品，比挣钱重要——跳海就是我的作品。"
+    speaker: 梁优
+    source: '播客"很会观察"'
+
+  - text: "稳定的交付，非标体验。"
+    speaker: 梁优
+    source: '播客"很会观察"——跳海模式的六字总结'
+
+  - text: "更像袁隆平种稻——是它先生长，我们再总结，而不是先总结再部署。"
+    speaker: 梁优
+    source: '播客"很会观察"'
+
+  - text: "世界公司只有一种形式叫独裁。我顶多说现在能做到的是一个开明的专制。"
+    speaker: 梁优
+    source: '播客"生存可能"'
+
+  - text: "最大的理想主义是实践。"
+    speaker: 梁优
+    source: '播客"生存可能"'
+
+  - text: "平庸的人只会招来平庸的人。平庸的人只能招来平庸的客人。"
+    speaker: 梁优
+    source: '播客"生存可能"'
+
+  - text: "跳海的底色是一代人的绝望。"
+    speaker: 梁优
+    source: '播客"险营"'
+
+  - text: "酒吧里你周围的人构成了你体验的80%。"
+    speaker: 梁优
+    source: '播客"险营"'
+
+  - text: "我命由我不由天。"
+    speaker: 梁优
+    source: '播客"险营"——精酿吸引他的原因：普通人可以靠自己做出世界顶级啤酒'
+
+  - text: "来跳海是为了更好地回到生活中去。"
+    speaker: 梁优
+    source: '播客"日谈公园"'
+
+  - text: "我们希望你来跳海是为了有一天你不再来。"
+    speaker: 梁优
+    source: '播客"日谈公园"'
+
+  - text: "别在车里坐着了，喝一杯吧。"
+    speaker: 梁优
+    source: '播客"日谈公园"——给大厂人的广告词'
+
+  - text: "跳海还活着，说明这个世界会变好。"
+    speaker: 梁优
+    source: '播客"日谈公园"/"跳海演讲"——疫情期间朋友们的寄语'
+
+  - text: "不要让一个老板的ego成为一个酒馆的天花板。"
+    speaker: 梁优
+    source: '演讲"90%的感情是要分手的"'
+
+  - text: "可是照此生活下去我不同意。"
+    speaker: 跳海新媒体负责人周周的微信签名
+    source: '播客"品牌消费官"'
+    note: 原句来自北岛诗歌
+
+  - text: "让用户看见彼此，我觉得这就已经很跳海了。"
+    speaker: 随易
+    source: '播客"创新磁场"'
+
+  - text: "社区感没有稳态，它不是在进步就是在衰败。"
+    speaker: 随易
+    source: '播客"创新磁场"'
+
+  - text: "没有人不需要工作，但是大家都不喜欢上班。工作是你在创造一些东西，上班只是你把你的肉身放在一个地方。"
+    speaker: 随易
+    source: '播客"创业内幕"'
+
+  - text: "打酒师对我们来说是第一性原理。"
+    speaker: 随易
+    source: '播客"创业内幕"'
+
+  - text: "跳海就是把老板店连锁化了。"
+    speaker: 随易
+    source: '播客"创业内幕"'

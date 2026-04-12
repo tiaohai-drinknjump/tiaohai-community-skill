@@ -1,0 +1,139 @@
+note: 以下数据均来自公开报道和播客，不涉及内部未公开信息。
+
+key_metrics:
+  revenue_2023: 超过1亿元人民币
+  net_profit_2023: 1000多万元
+  stores_latest: 约53家（覆盖15+城市，含新加坡、香港、东京）
+  gross_margin: "75%"
+  store_net_margin: "35%"
+  space_efficiency: 约3-4万元/平米/年（坪效）
+  space_efficiency_comparison: 是海伦司的3-5倍，接近喜茶
+  payback_period: 平均10个月
+  labor_cost_ratio: 总营收的15%（行业一般24%以上）
+  avg_price_per_cup: 约60-70元
+  fulltime_employees: 约160人（其中中台约四五十人）
+  per_store_fulltime: 约2人
+  registered_bartenders: 接近30000人
+  active_bartenders: 约1000人
+  wechat_groups: 超过1000个
+  advertising_spend: 零（从未在抖音/小红书/大众点评投放广告）
+  revenue_from_alcohol: 90%的收入来自卖酒
+  female_user_ratio: 约70%（行业最高）
+  total_skus: 3000+（涵盖国内外精酿厂牌）
+  avg_store_size: 约100平（最小40平，最大1000平）
+  no_office: 完全没有实体办公室，全员飞书远程办公。连HR合同盖章都寄到负责人家里
+  store_cap: 300家封顶
+  online_community: 1000多个500人微信群，覆盖约50万私域用户
+  avg_order_value: 约134元（约两杯）
+  fulltime_from_customers: 全职员工约70%是从客人/打酒师转化而来
+  store_manager_gender: 北京10家店中约8家店长是女性
+  team_meeting: 周一管理层周会、周二市场会（已长达3小时）、周三城市会议，全部远程
+  partners: 七个合伙人，四个分布在四个城市，三个是政法大学毕业
+  key_person_zhouzou: >
+    内容负责人周周：北外毕业，在家赋闲两年后来跳海写公众号，
+    被称为跳海"精神领袖"。纠正了梁二狗从"女性友好"改为"去性别化"。
+    微信签名来自北岛："可是照此生活下去我不同意"
+
+pricing:
+  craft_beer: 58-78元/杯，均价约70元
+  vs_competitors: 比同类酒吧贵5-10元——"都来酒馆了，没必要35"
+  singapore: 最便宜的酒卖20新币（约100多人民币）
+  strategy: 尽可能把客单做高，给酒损留够空间
+
+funding:
+  round: 天使轮
+  amount: 数千万元
+  date: "2024-09-30"
+  lead_investor: 挑战者创投（元气森林创始人唐彬森旗下）
+  terms: 无对赌协议，不要求快速扩张，不指望五年内上市
+  other_investors: 三位普通用户跟投
+  note: 2024年之前没有拿过任何融资，50家店完全靠利润和经营能力
+
+core_logic:
+  positioning: '"社群运营公司，酒馆是4S店"'
+  expansion: '"先有人再有店"——每到新城市先建500人微信群，再开店'
+  anti_pattern: '"千城万店是本人价值观上反对的"——长期目标300家封顶'
+  comparison: '"跳海跟海伦司不在一个行业，跟阿那亚在一个行业"——围绕人群做生意'
+  why_beer: >
+    不做鸡尾酒的原因：调酒师调得好一定会出去开店，无法连锁。
+    选择啤酒因为：文化上更"不论出身"，出品简单（会开水龙头就行），
+    才能支撑打酒师开源模式。高毛利才能撑住兼职的高损耗。
+  non_standard: >
+    每天晚上每个店酒单不同，像开盲盒。
+    每天打酒师不一样，活动也不一样。
+    越低频的消费越需要非标和惊喜。
+  light_asset: >
+    越来越多"轻资产店"——不交房租不投装修，
+    业主装修后跳海进入运营，给业主分流水。
+    阿那亚合作也是这种模式。
+
+bartender_economics:
+  model: >
+    每店仅2名全职员工，其余全部兼职打酒师。
+    打酒师通过飞书"抢单"排班，底薪150元/天+提成约200-300元。
+    核心公式："多一个人站在吧台里面，就会有多20个人站在外面。"
+  labor_cost_saving: 人力成本从行业平均24%降至15%
+  core_value: >
+    打酒师制度最核心的价值不是节约人力成本（虽然是意外收获），
+    而是marketing——让用户真心推荐品牌给朋友。
+  analogy: >
+    "在美团出现之前商家自己送外卖，美团把这个角色开源了；
+    在跳海出现之前酒吧自己雇打酒师，跳海把这个角色开源了。"
+  flywheel: >
+    打酒师带来自己的朋友 → 朋友变酒客 → 酒客变打酒师 → 循环
+
+management:
+  model: '"八爪鱼理论"'
+  description: >
+    每家店是八爪鱼的一个触角，好事坏事都传回大脑（总部），
+    讨论判断后形成决策沉淀经验，再发回各店。
+  style: >
+    松散邦联式管理。非常尊重一线判断，给一线极大自主权。
+    Netflix式"全知全决加最大共识"——让所有人了解所有信息，通过反复讨论建立共识。
+    效率极低，有些事讨论三个月才推出。
+  city_structure: >
+    每个城市设"城市主理人"（对业务负责）和"政委"（对调性和社群负责）。
+    核心运营团队每城市不超过3-5人。
+  four_partners: 四个合伙人分布在四个城市，平时不联系，像乐队排练时才见面
+  no_office: 无固定办公室，全员分布式办公。连HR合同盖章都寄到负责人家里
+  tools: 飞书管理全部流程，16周/36个节点的开店SOP
+  meeting_rhythm: 周一管理层周会，周二市场会，周三城市会议，全部远程
+
+city_observations:
+  北京: 全国最严肃、最愿意讨论严肃话题，"全国只有北京能靠聊天下酒"
+  上海: 喝酒是摆金字塔玩游戏
+  深圳: 所有人都谈钱
+  天津: 本以为很难做，结果是最大惊喜
+  成都: '"我到处都有自己的地儿"，建设性比对抗性强'
+  大理: 很好做但留不住人，流动性太强
+  下沉边界: 山东青岛可以，枣庄不行；江苏南京可以，盐城不行
+
+new_business:
+  - name: 跳海Living
+    type: 青旅+长租公寓
+    location: 深圳南头古城（改造万科泊寓闲置握手楼）
+    opened: "2025-09-12"
+    details:
+      三栋楼: 一栋公寓长租、一栋酒店（大床房+多人间）、底商自营
+      hostel: 33间房108张床位，二人间180-200元/床，四人间150-160元/床
+      apartment: 13间，月租3600-4300元
+      renovation_cost: 约200万元，平均单房4.3万元
+      occupancy: 约60%
+    model: 轻资产运营输出，品牌赞助硬装
+    concept: >
+      复兴青旅文化。让本地住户和外地旅行者产生互动。
+      "双向筛选"入住机制，租户需填问卷确保是社区共建参与者。
+
+others_assessment:
+  脱不花: '"别人以为你们是个酒馆，其实你们是个内容公司。"'
+  Mable: '"跳海是你在城市里的山野。"'
+  36氪: 跳海是近几年可能唯一一个文科生创业拿到融资的消费类项目
+
+sources:
+  - https://news.qq.com/rain/a/20250128A03Y0X00
+  - https://finance.sina.com.cn/tech/roll/2024-11-04/doc-incuwspx9935945.shtml
+  - https://36kr.com/p/2983235288453382
+  - https://m.bjnews.com.cn/detail/1714370481129503.html
+  - https://www.feishu.cn/customers/tiaohai
+  - https://m.huxiu.com/article/4766787.html
+  - '播客"晚点聊""长谈""实业之评""创客声亮"'

@@ -1,0 +1,48 @@
+articles:
+  - id: qq-2023-founder-story
+    title: '跳海创始人梁优：30岁，第5次创业，开一家"人是核心"的酒馆'
+    source: 腾讯新闻
+    url: https://news.qq.com/rain/a/20231122A08GIU00
+    date: "2023-11"
+    type: interview
+    summary: 完整个人履历、五次创业经历、运营模式详解
+
+  - id: huxiu-2023-two-yi
+    title: '开跳海酒馆前，他已经赚了两个亿'
+    source: 虎嗅网
+    url: https://m.huxiu.com/article/2258798.html
+    date: "2023-11"
+    type: interview
+    summary: 早年创业经历、从互联网到酒馆的转型
+
+  - id: qq-2024-wenke-startup
+    title: '从开酒馆到开酒店，跳海的秘密是"文科生创业"'
+    source: 36氪/腾讯新闻
+    url: https://news.qq.com/rain/a/20241211A081ZD00
+    date: "2024-12"
+    type: interview
+    summary: 文科生创业理念、从酒馆到酒店的扩展战略
+
+  - id: thepaper-2022-youth-culture
+    title: '北京"跳海酒馆"创始人：啤酒更关乎青年文化而非口味'
+    source: 澎湃新闻
+    url: https://www.thepaper.cn/newsDetail_forward_19218256
+    date: "2022-07"
+    type: interview
+    summary: 反对标准化扩店、啤酒文化观、DAO概念
+
+  - id: qq-2022-community-4s
+    title: '跳海酒馆老板：我们是社群运营公司，酒馆是4S店'
+    source: 腾讯新闻
+    url: https://news.qq.com/rain/a/20221023A05KXQ00
+    date: "2022-10"
+    type: interview
+    summary: '自定义跳海为"社群运营公司"'
+
+  - id: qq-2025-suiyi-overseas
+    title: '跳海酒馆合伙人随易：继续开店，还要跳出海'
+    source: 腾讯新闻
+    url: https://news.qq.com/rain/a/20250128A03Y0X00
+    date: "2025-01"
+    type: interview
+    summary: 41家门店最新数据、新加坡开业、东京香港计划、跳海Living

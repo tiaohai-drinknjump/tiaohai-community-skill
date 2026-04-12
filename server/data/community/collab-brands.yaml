@@ -1,0 +1,81 @@
+collaborations:
+  - brand: B站（哔哩哔哩）
+    type: 联名活动
+    description: 夏日灵感企划（灵感故事会、人生拍卖会）
+
+  - brand: Levi's
+    type: 品牌联名
+    description: 品牌联名活动
+
+  - brand: 迷笛音乐节
+    type: 活动合作
+    description: 音乐文化活动合作
+
+  - brand: 1733沿海公路音乐节
+    type: 活动合作
+    description: 2025年5月，跳海×1733沿海公路音乐节，千名打酒师、品牌、艺术家、乐手、市集摊主参与
+
+  - brand: '电影《东四十条》'
+    type: 投资+联名
+    description: >
+      跳海投资的电影，导演在跳海写剧本，用附近古楼生活的演员拍摄，
+      20万成本在平遥拿了两个奖。联名精酿啤酒罐
+
+  - brand: 派拉蒙（龙与地下城）
+    type: 商业合作
+    description: >
+      《龙与地下城》中国首映选跳海合作，Village改成主题酒馆，
+      与好莱坞影星现场连线，全国12个跳海联动，酿了一款主题酒
+
+  - brand: 无聊猿 NFT
+    type: 联名
+    description: NFT联名合作
+
+  - brand: 多抓鱼
+    type: 联名
+    description: 二手书平台跨界合作
+
+  - brand: Rode
+    type: 设备合作
+    description: 安定门店三楼共享录音棚，向所有想录播客的人开放
+
+  - brand: 简单心理
+    type: 活动合作
+    description: 心理咨询活动在多城市落地
+
+  - brand: 绿色蔷薇
+    type: 公益合作
+    description: 深圳女工NGO，全国跳海店铺代卖其劳动工艺品周边
+
+  - brand: 善淘 Buy42
+    type: 慈善合作
+    description: '"夜间光合作用"慢闪店'
+
+  - brand: 超级植物
+    type: 门店合作
+    description: 跨界合作品牌
+
+  - brand: D.A.O Coffee
+    type: 门店合作
+    description: 咖啡合作
+
+  - brand: 箸关东煮
+    type: 餐食合作
+    description: 深夜食堂关东煮，部分门店引入
+
+  - brand: N0N-B1NARY
+    type: 门店合作
+    description: 鸡尾酒吧合作
+
+  - brand: Libertango Vintage
+    type: 门店合作
+    description: 古着合作（北二跳店内）
+
+breweries:
+  note: 跳海与全国约10家酿酒厂合作供应精酿啤酒
+  names:
+    - 楚门
+    - 大九
+    - 气泡实验室
+    - 云酿
+    - 山乘
