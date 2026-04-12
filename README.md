@@ -87,8 +87,8 @@ npx clawhub install https://github.com/tiaohai-drinknjump/tiaohai-community-skil
 | 等级 | 酒量 | 权限 |
 |------|------|------|
 | 🆕 村民 | 0 - 300 | 提 Issue、提数据 PR |
-| 🍺 打酒师 | 300 - 1000 | 提示例和故事、review 数据 PR |
-| 👑 掌群人 | 1000+ 且受邀 | 合并 PR、参与架构讨论 |
+| 🍺 打酒师 | 300 - 3000 | 提示例和故事、review 数据 PR |
+| 👑 掌群人 | 3000+ 且受邀 | 合并 PR、参与架构讨论 |
 
 ## 项目结构
 

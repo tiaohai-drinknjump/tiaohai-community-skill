@@ -180,7 +180,7 @@ def generate_leaderboard(scores):
             "badges": badges,
             "last": last,
         }
-        if total >= 1000:
+        if total >= 3000:
             keepers.append(entry)
         elif total >= 300:
             bartenders.append(entry)
