@@ -111,5 +111,3 @@ tiaohai-community-skill/
 ## 致谢
 
 感谢跳海酒馆创造了这样一个地方，让我们愿意为它建一个数字客厅。
-
-参考项目：[JinGuYuan/jinguyuan-dumpling-skill](https://github.com/JinGuYuan/jinguyuan-dumpling-skill)
